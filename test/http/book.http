@@ -1,0 +1,15 @@
+###
+
+GET http://localhost:8080/api/book
+
+###
+GET http://localhost:8080/api/book/1
+
+###
+POST http://localhost:8080/api/book
+content-type: application/json
+
+{
+    "title": "sample",
+    "isbn": "test"
+}

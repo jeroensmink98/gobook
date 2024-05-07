@@ -1,0 +1,14 @@
+###
+
+GET http://localhost:8080/api/genre
+
+###
+GET http://localhost:8080/api/genre/1
+
+###
+POST http://localhost:8080/api/genre
+content-type: application/json
+
+{
+    "genre": "fiction",
+}

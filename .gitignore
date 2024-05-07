@@ -22,3 +22,8 @@ go.work
 
 # database
 *.db
+
+# dev folders
+*/tmp/
+*.log
+/tmp
